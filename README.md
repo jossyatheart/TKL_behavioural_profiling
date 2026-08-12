@@ -6,9 +6,9 @@ This repository contains the analysis code, reproducibility materials, and suppo
 
 ## Study overview
 
-The study analyses behavioural interaction data collected using Microsoft HoloLens 2 during a five-minute augmented-reality learning activity.
+The study analyses behavioural interaction data collected using Microsoft HoloLens 2 during a five-minute augmented-reality learning activity. The original experimental environment and data-collection procedure are described by Nwobodo et al. (2025).
 
-The analytical dataset contains:
+The analytical dataset used in the present study contains:
 
 - **1,551 learner–object behavioural records**
 - **36 participants**
@@ -21,7 +21,16 @@ Four behavioural measures were analysed:
 - revisit count
 - head movement
 
-The underlying dataset retains the variable name `Interaction_Count`, while the manuscript uses the term **interaction frequency**, consistent with the terminology of the original experiment.
+  ## Data provenance
+
+The behavioural data analysed in this repository originate from the augmented-reality learning experiment reported in:
+
+> Nwobodo, O. J., Kuaban, G. S., Wereszczyński, K., & Cyran, K. A. (2025).  
+> *Enhancing learning in augmented reality (AR): A deep learning framework for predicting memory retention in AR environments.*  
+> In *International Conference on Computational Science* (pp. 92–106).  
+> https://doi.org/10.1007/978-3-031-97573-8_7
+
+The present repository contains a **secondary participant-aware analysis** of behavioural data from that experiment. The current analysis focuses on behavioural interaction profiling and does not reuse the previously derived Memory State variable as an independent validation outcome.
 
 ## Analytical approach
 
